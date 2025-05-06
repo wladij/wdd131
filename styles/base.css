@@ -1,0 +1,136 @@
+:root {
+    --primary-color: #1a5276;
+    --secondary-color: #f4f4f4;
+    --highlight-color: #007bff;
+    --footer-bg-color: #333;
+    --footer-text-color: #fff;
+    --border-radius: 8px;
+    --card-padding: 20px;
+    --card-margin: 20px;
+    --font-family: 'Roboto', sans-serif;
+    --font-size: 16px;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    
+}
+
+
+header {
+    background-color: var(--primary-color);
+    color: var(--footer-text-color);
+    display: grid;
+    
+}
+
+h1 {
+    margin: 0 auto;
+    padding: 30px;
+}
+
+h1 span{
+    color: yellow;
+}
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    text-decoration: none;
+    color: var(--footer-text-color);
+    padding: 15px;
+    
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 10px;
+    margin: 10px;
+}
+
+ul{
+    
+}
+
+h2{
+    background-color: var(--primary-color);
+    color: var(--footer-text-color);
+    margin: 0;  
+    text-align: center;
+    padding: 7px 0;
+}
+
+
+.content {
+    padding: 20px;
+}
+
+.aboutMe {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+  }
+  
+  .aboutMe p {
+    width: 70%;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .aboutMe img {
+    width: 100px;
+    height: auto;
+    border-radius: 4px;
+  }
+
+  h3 {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .location {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .location img {
+    width: 80px;
+    height: auto;
+    margin-right: 15px;
+  }
+  
+  .location p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+  }
+section.card {
+    background-color: #fff;
+    padding: 0;
+    margin-bottom: var(--card-margin);
+    border-radius: var(--border-radius);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 10px;
+    text-align: center;
+}
+
+footer img {
+    width: 20px;
+    margin-left: 5px;
+    vertical-align: middle;
+}

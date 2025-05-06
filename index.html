@@ -4,9 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>wdd131-Candelario</title>
+    <meta name="description" content="WDD 131 – Dynamic Web Fundamentals - Joe Candelario">
+    <meta name="author" content="Joe Candelario">
+    <title>WDD 131 – Dynamic Web Fundamentals - Joe Candelario</title>
+    <script src="scripts/getdates.js" defer></script>
+    <link rel="stylesheet" href="styles/base.css">
 </head>
 <body>
-    <h1>wdd131-Candelario</h1>
+    <header>
+        <h1>WDD 131: Dynamic Web Fundamentals - <span>Joe Candelario</span> </h1>
+        <nav>
+            <a href="#">LinkedIn</a>
+            <a href="https://byupw.instructure.com/">Canvas</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7">Scripture</a>
+            <a href="#">Final Project</a>
+        </nav>
+    </header>
+    <main>
+        <section id="section1" class="card">
+            <h2>About Me</h2>
+            <div class="content">
+                <div class="aboutMe">
+                    <p>My name is Joe Candelario, I am from Ecuador, 
+                        I serve a mission for the Church of Jesus Christ of Latter Day Saints in Uruguay, 
+                        I like soccer, listening to music and enjoying the fresh air. 
+                        My goal as a developer is to be able to work for a good company and thus support my family.</p>
+                    <img src="images/me.png" alt="Photo Me"> 
+                </div>
+                <h3>Guayaquil, Ecuador</h3>
+                <div class="location">
+                
+                    <img src="images/Flag_of_Ecuador.png" alt="Ecuador">
+                    <p>It is a sovereign country constituted as a social, democratic, constitutional and plurinational state, 
+                        whose form of government is that of a presidential republic, unitary and decentralized. 
+                        It is located in the northwestern region of South America. Its capital is Quito, and the country's most populated city is Guayaquil.</p>
+                </div>
+            </div>
+        </section>
+        <section id="section2" class="card">
+            <h2>Web Dev Resources</h2>
+            <ul>
+                <li><a href="#">Dev.to Community</a></li>
+                <li><a href="#">Smaching Magazine</a></li>
+                <li><a href="#">Css Tricks</a></li>
+                <li><a href="#">W3 Schools</a></li>
+                <li><a href="#">Udemy</a></li>
+                <li><a href="#">Image Placeholder</a></li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&#169; <span id="current-year"></span> Joe Candelario<img src="images/ecuador.png" alt="Ecuador Flag">  Ecuador</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 </html>
