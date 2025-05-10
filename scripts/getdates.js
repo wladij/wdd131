@@ -1,4 +1,4 @@
-console.log('JS cargado');
+
 
 document.addEventListener("DOMContentLoaded", function() {
     
