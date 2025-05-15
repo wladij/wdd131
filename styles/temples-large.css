@@ -1,0 +1,44 @@
+@media only screen and (min-width: 40em) {
+	header nav {
+        display: block !important;
+    }
+
+    
+    header h1 {
+        display: block !important;
+    }
+
+   
+    #menu {
+        display: none;
+    }
+    
+    h1 {
+		font-size: 2rem;
+	}
+
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; 
+		flex: 1 1 100%;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	
+   
+}
+
+@media only screen and (min-width: 400px ) and (max-width:700px){
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+

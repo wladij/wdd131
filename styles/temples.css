@@ -1,0 +1,133 @@
+header{
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    max-width: 100%;
+}
+
+header h1{
+    padding: 0 20px;
+}
+
+#menu {
+	display: block;
+	font-size: 2rem;
+	font-weight: 700;
+	text-decoration: none;
+	padding: 0.5rem 0.75rem;
+	color: white;
+    text-align: end;
+    margin: auto 0;
+    cursor: pointer;
+}
+
+#menu::before {
+	content: "≡";
+}
+
+
+
+.navigation {
+	list-style: none;
+}
+
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1.4rem, 2vmin, 1.5rem);
+}
+
+.navigation a:hover,
+.navigation a:active {
+	color: blueviolet;
+	background-color: white;
+}
+
+header.show h1 {
+    display: none;
+}
+
+header nav {
+    display: none;
+}
+
+
+header.show nav {
+    display: block;
+}
+
+
+#menu {
+    display: block;
+    text-align: right;
+    cursor: pointer;
+}
+
+
+header.show {
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    padding: 1rem;
+}
+
+
+
+.show li {
+	display: block;
+}
+
+#menu.show::before {
+	content: "X";
+}
+
+main h1{
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+figure{
+    max-width: 200px;
+    max-height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0;
+}
+
+figure img{
+    width: 100%;
+}
+
+figure a{
+    color: blueviolet;
+}
+
+footer {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+footer img {
+    width: 20px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
