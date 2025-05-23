@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 131 – Place site">
+    <meta name="author" content="Joe Candelario">
+    <title>Place Site</title>
+    <script src="scripts/place.js" defer></script>
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+</head>
+<body>
+    <header>
+        <h1>Guayaquil</h1>
+    </header>
+    <div class="color-brand"></div>
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(min-width:550px)" srcset="images/guayaquil_2.webp">
+                <img class="hero-img" src="images/Guayaquil_1.webp" alt="Guayaquil" width="423" height="640">
+            </picture>
+        </div>
+        <div class="div-section">
+            <h2>Data</h2>
+            <table class="info-table">
+              <tr><td class="label">Area:</td><td class="value">354,48 km²</td></tr>
+              <tr><td class="label">Population:</td><td class="value">2 650 288 hab.</td></tr>
+              <tr><td class="label">Capital:</td><td class="value">None</td></tr>
+              <tr><td class="label">Language:</td><td class="value">Español</td></tr>
+              <tr><td class="label">Currency:</td><td class="value">Dolar $</td></tr>
+              <tr><td class="label">Time zone:</td><td class="value">GMT-5</td></tr>
+              <tr><td class="label">Calling Code:</td><td class="value">+593</td></tr>
+              <tr><td class="label">Zip Code:</td><td class="value">090101 - 090158</td></tr>
+            </table>
+        </div>
+          
+        <div class="div-section">
+            <h2>Weather</h2>
+            <img  src="images/weather.svg" alt="weather" width="100" height="100">
+            <table class="info-table">
+              <tr><td class="label">Temperature:</td><td class="value">23°c</td></tr>
+              <tr><td class="label">Conditions:</td><td class="value">Partly cloudy</td></tr>
+              <tr><td class="label">Wind:</td><td class="value">10km/h</td></tr>
+              <tr><td class="label">Wind Chill:</td><td class="value" id="wind"></td></tr>
+            </table>
+        </div>
+          
+    </main>
+    <footer>
+        <footer>
+            <p>&#169; <span id="current-year"></span> Joe Candelario<img src="images/ecuador.png" alt="Ecuador Flag">  Ecuador</p>
+            <p id="lastModified"></p>
+        </footer>
+    </footer>
+</body>
+</html>
