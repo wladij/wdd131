@@ -1,0 +1,36 @@
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    text-align: center;
+    width: 400px;
+    gap: 20px;
+}
+
+main img{
+    width: 100%;
+    background: #000;
+    animation: fade 10s;
+}
+
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 1;
+    }
+}
+
+footer {
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+}
+
+footer img {
+    width: 20px;
+    margin-left: 5px;
+    vertical-align: middle;
+}

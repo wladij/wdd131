@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temples</title>
+    <meta name="description" content="Temples Page">
+    <meta name="author" content="Joe Candelario">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css">
+    <script src="scripts/filtered-temples.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Temple Album</h1>
+        <a id="menu" href="#"></a>
+        <nav>
+            <button id="filter-home">🏠 All</button>
+            <button id="filter-old">📜 Old</button>
+            <button id="filter-new">🆕 New</button>
+            <button id="filter-large">🏗️ Large</button>
+            <button id="filter-small">🏠 Small</button>
+        </nav>
+    </header>
+    <main id="temple-cards"></main>
+    <footer>
+        <p>&#169; <span id="current-year"></span> Joe Candelario<img src="images/ecuador.webp" alt="Ecuador Flag">  Ecuador</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

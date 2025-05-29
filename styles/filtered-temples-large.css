@@ -1,0 +1,38 @@
+@media only screen and (min-width: 40em) {
+	header nav {
+        display: block !important;
+    }
+
+    
+    header h1 {
+        display: block !important;
+    }
+
+   
+    #menu {
+        display: none;
+    }
+    
+    h1 {
+		font-size: 2rem;
+	}
+
+    #temple-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+	.navigation {
+		display: flex;
+	}
+	
+	
+   
+}
+
+@media only screen and (min-width: 400px ) and (max-width:700px){
+    #temple-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
