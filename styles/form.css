@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    margin: 0;
+    justify-content: center;
+    padding: 0;
+  }
+
+header{
+    background-color: rgb(10, 158, 109);
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+header h1{
+    text-align: center;
+    margin: 0;
+}
+
+  
+  .review-form {
+    background-color:rgb(10, 158, 109, 0.5); 
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    margin: 10px auto;
+  }
+  
+  .review-form label,
+  .review-form legend {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+  }
+  
+  .review-form select,
+  .review-form input[type="date"],
+  .review-form input[type="text"],
+  .review-form textarea {
+    width: 100%;
+    padding: 6px;
+    margin-top: 4px;
+    box-sizing: border-box;
+  }
+  
+  .review-form fieldset {
+    border: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  .review-form .rating label {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  .review-form .features label {
+    display: block;
+  }
+  
+  .optional {
+    font-weight: normal;
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  .submit-btn {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(10, 158, 109);
+    border: 1px solid #999;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: rgb(10, 158, 109, 0.5);
+  }
+  
+
+  footer {
+    background-color:  rgb(10, 158, 109);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+footer img {
+    width: 20px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.div-review{
+    background-color:  rgb(10, 158, 109, 0.5);
+    text-align: center;
+    width: 500px;
+    margin: 50px auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+  @media (max-width: 480px) {
+    .review-form {
+      
+      padding: 15px;
+    }
+  
+    
+  
+    .review-form .rating label {
+      display: block;
+      margin-bottom: 5px;
+    }
+  }
+  
